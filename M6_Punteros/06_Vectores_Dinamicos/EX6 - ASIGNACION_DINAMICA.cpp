@@ -22,9 +22,17 @@ float *vec_notes; 	// Calificaciones - variable con punteros
 
 // Principal Función
 int main(){
+	/* cout << "Dirección del puntero"	<<	vec_notes	<<	endl;
+	cout << &vec_notes << endl; */
+	
 	init_notes();
 	show_notes();	
 	
+	/* for (int i = 0; i < N; i++)
+	{
+		cout << &vec_notes[i] << endl;
+	} */
+
 	delete[] vec_notes;
 	
 	getch();
@@ -36,7 +44,8 @@ void init_notes(){
 	cout << "Digite el numero de calificaciones: "; cin >> N;
 	vec_notes = new float[N]; // Crear el arreglo dinámico
 	
-	for (int i = 0; i < N; i++){
+	for (int i = 0; i < N; i++)
+	{
 		cout << "Ingrese una nota: "; cin >> vec_notes[i];	
 	}
 
@@ -45,7 +54,8 @@ void init_notes(){
 void show_notes(){
 	cout << "\n\n" << endl;
 	cout << "Mostrando notas del usuario\n";
-	for (int i = 0; i < N; i++){
+	for (int i = 0; i < N; i++)
+	{
 		cout << i << ". Nota: " << vec_notes[i] << endl;
 	}
 }

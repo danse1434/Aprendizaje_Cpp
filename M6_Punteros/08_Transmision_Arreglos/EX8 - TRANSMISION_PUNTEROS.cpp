@@ -1,5 +1,6 @@
 /* Punteros 
 Transmisión de Arreglos
+for(int = 0; i < N, i++){ *dir_vec + i }
 */
 
 #include<iostream>

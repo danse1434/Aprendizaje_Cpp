@@ -62,12 +62,22 @@ void init_data(){
 }
 
 void show_data(int **M, int nrow, int ncol){
-	cout<<"\n\nImprimiendo matriz:\n";
-	
-		for(int i=0;i<nrow;i++){
-			for(int j=0;j<ncol;j++){
-				cout << *(*(M+i)+j) << "  ";
-		} cout<<"\n";
+	cout<<"\n\n";
+	cout<<"Imprimiendo matriz: ";
+	cout<<"\n";
+
+	for (int j = 0; j < ncol; j++)
+	{
+		cout <<	"\t" << "[," <<	j << "]";
+	}
+	cout << "\n";
+	for(int i = 0; i < nrow; i++)
+	{	
+		cout <<	"[" <<	i << ",]\t";
+		for(int j=0;j<ncol;j++) 
+		{
+			cout	<< 	*(*(M+i)+j) << "\t";
+		} 	cout	<<	"\n";
 	}
 }
 

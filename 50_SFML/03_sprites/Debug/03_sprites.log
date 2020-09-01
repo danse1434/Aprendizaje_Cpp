@@ -1,0 +1,53 @@
+﻿  juego.cpp
+F:\Documentos\Estudio_Documentos\Software\SFML\03_sprites\src\juego.cpp(25,66): warning C4244: 'argumento': conversión de 'float' a 'T'; posible pérdida de datos
+          with
+          [
+              T=int
+          ]
+F:\Documentos\Estudio_Documentos\Software\SFML\03_sprites\src\juego.cpp(25,51): warning C4244: 'argumento': conversión de 'float' a 'T'; posible pérdida de datos
+          with
+          [
+              T=int
+          ]
+F:\Documentos\Estudio_Documentos\Software\SFML\03_sprites\src\juego.cpp(28,101): warning C4244: 'argumento': conversión de 'float' a 'T'; posible pérdida de datos
+          with
+          [
+              T=int
+          ]
+F:\Documentos\Estudio_Documentos\Software\SFML\03_sprites\src\juego.cpp(28,86): warning C4244: 'argumento': conversión de 'float' a 'T'; posible pérdida de datos
+          with
+          [
+              T=int
+          ]
+F:\Documentos\Estudio_Documentos\Software\SFML\03_sprites\src\juego.cpp(28,67): warning C4244: 'argumento': conversión de 'float' a 'T'; posible pérdida de datos
+          with
+          [
+              T=int
+          ]
+F:\Documentos\Estudio_Documentos\Software\SFML\03_sprites\src\juego.cpp(28,46): warning C4244: 'argumento': conversión de 'float' a 'T'; posible pérdida de datos
+          with
+          [
+              T=int
+          ]
+F:\Documentos\Estudio_Documentos\Software\SFML\03_sprites\src\juego.cpp(36,60): warning C4244: 'argumento': conversión de 'double' a 'sf::Uint8'; posible pérdida de datos
+F:\Documentos\Estudio_Documentos\Software\SFML\03_sprites\src\juego.cpp(45,109): warning C4244: 'argumento': conversión de 'float' a 'T'; posible pérdida de datos
+          with
+          [
+              T=int
+          ]
+F:\Documentos\Estudio_Documentos\Software\SFML\03_sprites\src\juego.cpp(45,94): warning C4244: 'argumento': conversión de 'float' a 'T'; posible pérdida de datos
+          with
+          [
+              T=int
+          ]
+F:\Documentos\Estudio_Documentos\Software\SFML\03_sprites\src\juego.cpp(45,72): warning C4244: 'argumento': conversión de 'float' a 'T'; posible pérdida de datos
+          with
+          [
+              T=int
+          ]
+F:\Documentos\Estudio_Documentos\Software\SFML\03_sprites\src\juego.cpp(45,47): warning C4244: 'argumento': conversión de 'float' a 'T'; posible pérdida de datos
+          with
+          [
+              T=int
+          ]
+  03_sprites.vcxproj -> F:\Documentos\Estudio_Documentos\Software\SFML\03_sprites\Debug\03_sprites.exe

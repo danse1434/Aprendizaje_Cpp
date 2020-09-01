@@ -1,0 +1,2 @@
+F:\Documentos\Estudio_Documentos\Software\SFML\03_sprites\Debug\03_sprites.exe
+F:\Documentos\Estudio_Documentos\Software\SFML\03_sprites\Debug\03_sprites.pdb

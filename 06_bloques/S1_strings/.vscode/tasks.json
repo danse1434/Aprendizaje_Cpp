@@ -1,0 +1,26 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "C/C++: g++.exe build active file",
+			"command": "C:\\MinGW\\bin\\g++.exe",
+			"args": [
+				"-g",
+				"${file}",
+				"-o",
+				"${fileDirname}\\${fileBasenameNoExtension}.exe",
+				/* Con esto no hay necesidad de copiar las librerías dinámicas en ambiente windows para compilar */
+				/* En este ejemplo me sirvio para no copiar libstdc++-6.dll desde el directorio de commando */
+				"-static-libstdc++" 
+			],
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build"
+		}
+	]
+}
